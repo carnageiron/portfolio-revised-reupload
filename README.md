@@ -1,9 +1,7 @@
 ## GCP Create a Portfolio Template
 A simple portfolio template, that allows you to deploy onto the Google Cloud Platform with App Engine, for free.
 
-[View Demo](https://ultron-48c26.el.r.appspot.com/)
-## Screenshots
-![](https://github.com/carnageiron/portfolio-revised-reupload/images/Screenshot.png)
+[Link for the portfolio website](https://ultron-48c26.el.r.appspot.com/)
 ## Getting Started
 Setup an account for the Google Cloud Platform [here](https://cloud.google.com/free/). It's free, and you can get $300 of free credit for 12 months.
 ## Prerequisites
