@@ -3,7 +3,7 @@ A simple portfolio template, that allows you to deploy onto the Google Cloud Pla
 
 [View Demo](https://ultron-48c26.el.r.appspot.com/)
 ## Screenshots
-![](/images/Screenshot 2023-08-12 114954.png)
+![](https://github.com/carnageiron/portfolio-revised-reupload/images/Screenshot 2024-09-28 204443.png)
 ## Getting Started
 Setup an account for the Google Cloud Platform [here](https://cloud.google.com/free/). It's free, and you can get $300 of free credit for 12 months.
 ## Prerequisites
