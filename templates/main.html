@@ -1,0 +1,139 @@
+{% extends "index.html" %}
+{% block content %}
+<div class="body">
+  <div class="row">
+    <div class="col s5 offset-s2">
+      <h5>About:</h5>
+      <p>A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact. I am a senior year high school student at DPSN, and an ameteur programmer and I will be graduating from my school in 2024 with a high school diploma in Math, Physics, Chemistry, English and Computer Science. I am familar in backend programming using Python, C, C++, Rust and low level programming using Assembly.  
+      </p>
+    </div>
+    <div class="col s5">
+      <h5>Social Media:</h5>
+      <ul class="socialmedia">
+        <li><a href="https://www.twitter.com/carnageiron1"><i class="fab fa-twitter-square fa-3x"></i></a></li>
+        <li><a href="https://www.github.com/carnageiron"><i class="fab fa-github-square fa-3x"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/aditya-srivastava-48439a207/"><i class="fab fa-linkedin fa-3x"></i></a></li>
+      </ul>
+    </div>
+  </div>
+  <!--Projects-->
+  <div class="row">
+    <div class="col s12 m9 l9 offset-m2 offset-l2 cards-container">
+      <div class="card">
+        <div class="card-content">
+          <span class="title">
+            <h5>TO-DO Web App Using Django</h5>
+          </span>
+          <hr>
+          <p>
+            This is a simple and efficient web-based todo list application that helps you stay organized and focused on your tasks. Whether you're an individual looking for a personal task manager or a team collaborating on a project, Todo-Web is designed to cater to your productivity needs.
+            Features include User Authentication, Task Creation, Task Management, Categories and Tags, Responsive Design.
+          </p>
+        </div>
+        <div class="card-action">
+          <ul class="projectLink">
+            <li><a href="https://github.com/carnageiron/to-do-django-app/"><i class="fab fa-github-square fa-3x"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-content">
+          <span class="title">
+            <h5>Simple Text Editor</h5>
+          </span>
+          <hr>
+          <p>
+            It simple text editor implemented in the C programming language. The text editor provides basic functionality for editing and manipulating text files.
+
+            Features
+            Opening and Saving Files, Insertion and Deletion, Navigation, Find, Syntax Highlighting
+            
+            This text editor has no external dependencies. It is implemented using standard C libraries, making it highly portable across different platforms.
+
+            Limitations: The text editor is designed for basic text editing tasks and may not handle complex file formats or large files efficiently.
+            Syntax highlighting is limited to basic patterns and may not support all programming languages.
+            The graphical user interface is not available in this text editor; it runs in the terminal.
+          </p>
+        </div>
+        <div class="card-action">
+          <ul class="projectLink">
+            <li><a href="https://www.github.com/carnageiron/text-editor/"><i class="fab fa-github-square fa-3x"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-content ">
+          <span class="title">
+            <h5>Raytraced Image</h5>
+          </span>
+          <hr>
+          <p>
+            This repository contains a simple ray tracing implementation in C++. Ray tracing is a technique used in computer graphics to simulate the way light interacts with objects in a scene, producing realistic images.
+
+            Features
+            Basic ray tracing algorithm
+            Sphere rendering with shading
+            Parallel rendering using multiple threads
+          </p>
+        </div>
+        <div class="card-action">
+          <ul class="projectLink">
+            <li><a href="https://www.github.com/carnageiron/raytracing"><i class="fab fa-github-square fa-3x"></i></a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-content ">
+          <span class="title">
+            <h5>Kernel that prints Hello World on Baremetal</h5>
+          </span>
+          <hr>
+          <p>
+            This repository contains the source code for a mini bootloader designed to load and execute a simple kernel written in assembly language. The bootloader provides the necessary functionality to initialize the system, load the kernel into memory, and transfer control to the kernel code.
+
+            Features
+            System Initialization: The bootloader initializes the system by setting up the necessary hardware components, such as the interrupt table, Global Descriptor Table (GDT), and the stack.
+            Bootloader Configuration: You can configure various parameters of the bootloader, such as the kernel entry point address and the memory layout.
+            Loading the Kernel: The bootloader loads the kernel code from a specified location into memory.
+            Transfer Control: Once the kernel is loaded, the bootloader transfers control to the kernel code, allowing the kernel to start executing.  
+          </p>
+        </div>
+        <div class="card-action">
+          <ul class="projectLink">
+            <li><a href="https://www.github.com/carnageiron/mini-kernel-bootloader"><i class="fab fa-github-square fa-3x"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-content ">
+          <span class="title">
+            <h5>Random Password Generator</h5>
+          </span>
+          <hr>
+          <p>
+            The Random Password Generator Web App is a simple yet powerful tool that allows users to generate secure and customizable random passwords. This repository contains the source code and assets for the web application.
+
+
+              Features:
+
+              Generate strong and secure random passwords with various customizable options.
+              Choose the length of the password.
+              Include or exclude lowercase letters, uppercase letters, numbers, and special characters.
+              Copy the generated password to your clipboard with a single click.
+              Intuitive and user-friendly interface.
+              Fully responsive design for a seamless experience on different devices.
+          </p>
+        </div>
+        <div class="card-action">
+          <ul class="projectLink">
+            <li><a href="https://www.github.com/carnageiron/random-password-generator-webapp"><i class="fab fa-github-square fa-3x"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+{% endblock %}
